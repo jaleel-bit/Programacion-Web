@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/*Seccion 1 Logo*/
+.logo{
+    display: grid;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    height: 70px;
+    background-color: cornflowerblue;
+    gap: 10px;
+}
+
+/*Seccion 2 Navegador*/
+.menu{
+    display: grid;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: crimson;
+}
+
+/*Seccion 3 Slider*/
+.slider{
+    display: grid;
+    width: 100%;
+    height: 200px;
+    background-color: cadetblue;
+}
+
+/*Seccion 4 Tablas y Tarjetas*/
+.tablas{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.tabla{
+    display: grid;
+    width: 100%;
+    height: 400px;
+    background-color: darkgoldenrod;
+}
+
+.tarjetas{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+}
+.tarjeta{
+    display: grid;
+    width: 100%;
+    height: auto;
+    background-color: steelblue;
+}
+/*.tarjeta2{
+    width: 100%;
+    height: 100px;
+    background-color: slateblue;
+}
+.tarjeta3{
+    width: 100%;
+    height: 200px;
+    background-color: salmon;
+}*/
+
+/*Seccion 5 Tablas y formularios*/
+.tablas1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.tabla1{
+    display: grid;
+    width: 100%;
+    height: 500px;
+    background-color: slategray;
+}
+.formularios{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+}
+.form{
+    width: 100%;
+    height: auto;
+    background-color: seagreen;
+}
+
+/*Seccion 6 Tarjetas*/
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.card{
+    background-color: aquamarine;
+    width: 100%;
+    height: 300px;
+}

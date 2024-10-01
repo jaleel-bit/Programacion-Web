@@ -1,0 +1,187 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/*Seccion 1 Logo*/
+.logo{
+    display: grid;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    height: 100px;
+    background-color: cornflowerblue;
+    gap: 10px;
+}
+.logo img{
+    width: 50px;
+    height: auto;
+    margin-left: 450px;
+    margin-right: 100px;
+    transition: transform 0.3s ease;
+}
+.logo img:hover{
+    transform: scale(1.1);
+}
+
+/*Seccion 2 Navegador*/
+.nav{
+    display: grid;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: crimson;
+}
+.menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 50px;
+}
+.menu ul li{
+    position: relative;
+}
+.menu ul li a{
+    color: darkkhaki;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 15px;
+    display: inline-block;
+    transition: all 0.3 ease;
+}
+.menu li a:hover{
+    transform: translateY(-10px);
+    background-color: azure;
+    color: darkred;
+    border-radius: 5px;
+}
+
+/*Seccion 3 Slider*/
+.slider{
+    display: grid;
+    width: 100%;
+    height: 200px;
+    background-color: cadetblue;
+}
+.slider img{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+/*Seccion 4 Tablas y Tarjetas*/
+.tablas{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.tabla{
+    display: grid;
+    padding: 20px;
+    width: 100%;
+    height: 400px;
+    background-color: darkgoldenrod;
+}
+table th,td{
+    border: 1;
+}
+.cont img{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+.texto{
+    color: darkmagenta;
+    margin-top: 10px;
+    padding: 20px;
+    font-size: 15px;
+    text-align: justify;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.tarjetas{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+}
+.tarjeta{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    height: auto;
+    background-color: steelblue;
+}
+.tarjeta img{
+    padding: 10px;
+    height: 100px;
+    width: 100%;
+    object-fit: cover;
+}
+
+/*Seccion 5 Tablas y formularios*/
+.tablas1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.tabla1{
+    display: grid;
+    width: 100%;
+    height: 500px;
+    background-color: slategray;
+}
+.formularios{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+}
+.form{
+    width: 100%;
+    height: auto;
+    background-color: seagreen;
+}
+.parrafo{
+    text-align: justify;
+    padding: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+    color: bisque;
+}
+
+/*Seccion 6 Tarjetas*/
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.card{
+    padding: 20px;
+    background-color: aquamarine;
+    width: 100%;
+    height: auto;
+}
+.card img{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+.texto1{
+    color: azure;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: darkred;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.texto1:hover{
+    background-color: whitesmoke;
+    color: indigo;
+}
